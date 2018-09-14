@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEEE7326213EC00400426B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE7325213EC00400426B9B /* AppDelegate.swift */; };
+		CEEE7328213EC00400426B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE7327213EC00400426B9B /* ViewController.swift */; };
+		CEEE732B213EC00400426B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEE7329213EC00400426B9B /* Main.storyboard */; };
+		CEEE732D213EC00600426B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEE732C213EC00600426B9B /* Assets.xcassets */; };
+		CEEE7330213EC00600426B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEE732E213EC00600426B9B /* LaunchScreen.storyboard */; };
+		CEEE733B213EC00600426B9B /* SonicUserProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE733A213EC00600426B9B /* SonicUserProfileTests.swift */; };
+		CEEE7346213EC15000426B9B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE7345213EC15000426B9B /* UserData.swift */; };
+		CEEE7348213EC42100426B9B /* ItsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE7347213EC42100426B9B /* ItsRequest.swift */; };
+		CEEE734A213EC4BE00426B9B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE7349213EC4BE00426B9B /* HomeViewModel.swift */; };
+		CEEE734D213ECC0500426B9B /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE734B213ECC0500426B9B /* ExperienceTableViewCell.swift */; };
+		CEEE734E213ECC0500426B9B /* ExperienceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEE734C213ECC0500426B9B /* ExperienceTableViewCell.xib */; };
+		CEEE735A213ED0EC00426B9B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE7359213ED0EC00426B9B /* Extensions.swift */; };
+		CEEE735C213ED94000426B9B /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE735B213ED94000426B9B /* CustomHeader.swift */; };
+		CEEE735E213ED94F00426B9B /* CustomHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEE735D213ED94F00426B9B /* CustomHeader.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEEE7337213EC00600426B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEE731A213EC00400426B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEE7321213EC00400426B9B;
+			remoteInfo = SonicUserProfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEEE7322213EC00400426B9B /* SonicUserProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonicUserProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEE7325213EC00400426B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEEE7327213EC00400426B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEEE732A213EC00400426B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEEE732C213EC00600426B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEEE732F213EC00600426B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEEE7331213EC00600426B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEE7336213EC00600426B9B /* SonicUserProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonicUserProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEE733A213EC00600426B9B /* SonicUserProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonicUserProfileTests.swift; sourceTree = "<group>"; };
+		CEEE733C213EC00600426B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEE7345213EC15000426B9B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CEEE7347213EC42100426B9B /* ItsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsRequest.swift; sourceTree = "<group>"; };
+		CEEE7349213EC4BE00426B9B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CEEE734B213ECC0500426B9B /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
+		CEEE734C213ECC0500426B9B /* ExperienceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceTableViewCell.xib; sourceTree = "<group>"; };
+		CEEE7359213ED0EC00426B9B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CEEE735B213ED94000426B9B /* CustomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+		CEEE735D213ED94F00426B9B /* CustomHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeader.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEE731F213EC00400426B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEE7333213EC00600426B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEEE7319213EC00400426B9B = {
+			isa = PBXGroup;
+			children = (
+				CEEE7359213ED0EC00426B9B /* Extensions.swift */,
+				CEEE7324213EC00400426B9B /* SonicUserProfile */,
+				CEEE7339213EC00600426B9B /* SonicUserProfileTests */,
+				CEEE7323213EC00400426B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEE7323213EC00400426B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE7322213EC00400426B9B /* SonicUserProfile.app */,
+				CEEE7336213EC00600426B9B /* SonicUserProfileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEE7324213EC00400426B9B /* SonicUserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE735F213EDF7000426B9B /* Helpers */,
+				CEEE7351213ECC2400426B9B /* Model */,
+				CEEE7350213ECC1400426B9B /* HomePage */,
+				CEEE734F213ECC0C00426B9B /* Network */,
+				CEEE7325213EC00400426B9B /* AppDelegate.swift */,
+				CEEE7329213EC00400426B9B /* Main.storyboard */,
+				CEEE732C213EC00600426B9B /* Assets.xcassets */,
+				CEEE732E213EC00600426B9B /* LaunchScreen.storyboard */,
+				CEEE7331213EC00600426B9B /* Info.plist */,
+			);
+			path = SonicUserProfile;
+			sourceTree = "<group>";
+		};
+		CEEE7339213EC00600426B9B /* SonicUserProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE733A213EC00600426B9B /* SonicUserProfileTests.swift */,
+				CEEE733C213EC00600426B9B /* Info.plist */,
+			);
+			path = SonicUserProfileTests;
+			sourceTree = "<group>";
+		};
+		CEEE734F213ECC0C00426B9B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE7347213EC42100426B9B /* ItsRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CEEE7350213ECC1400426B9B /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE7353213ECC5B00426B9B /* View */,
+				CEEE7352213ECC4300426B9B /* ViewModel */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		CEEE7351213ECC2400426B9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE7345213EC15000426B9B /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEEE7352213ECC4300426B9B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE7349213EC4BE00426B9B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEEE7353213ECC5B00426B9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE7354213ECC6900426B9B /* CustomCell */,
+				CEEE7327213EC00400426B9B /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEEE7354213ECC6900426B9B /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE734B213ECC0500426B9B /* ExperienceTableViewCell.swift */,
+				CEEE734C213ECC0500426B9B /* ExperienceTableViewCell.xib */,
+				CEEE735B213ED94000426B9B /* CustomHeader.swift */,
+				CEEE735D213ED94F00426B9B /* CustomHeader.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		CEEE735F213EDF7000426B9B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEE7321213EC00400426B9B /* SonicUserProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEE733F213EC00600426B9B /* Build configuration list for PBXNativeTarget "SonicUserProfile" */;
+			buildPhases = (
+				CEEE731E213EC00400426B9B /* Sources */,
+				CEEE731F213EC00400426B9B /* Frameworks */,
+				CEEE7320213EC00400426B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonicUserProfile;
+			productName = SonicUserProfile;
+			productReference = CEEE7322213EC00400426B9B /* SonicUserProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEEE7335213EC00600426B9B /* SonicUserProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEE7342213EC00600426B9B /* Build configuration list for PBXNativeTarget "SonicUserProfileTests" */;
+			buildPhases = (
+				CEEE7332213EC00600426B9B /* Sources */,
+				CEEE7333213EC00600426B9B /* Frameworks */,
+				CEEE7334213EC00600426B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEE7338213EC00600426B9B /* PBXTargetDependency */,
+			);
+			name = SonicUserProfileTests;
+			productName = SonicUserProfileTests;
+			productReference = CEEE7336213EC00600426B9B /* SonicUserProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEE731A213EC00400426B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = pankajBhardwaj;
+				TargetAttributes = {
+					CEEE7321213EC00400426B9B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CEEE7335213EC00600426B9B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CEEE7321213EC00400426B9B;
+					};
+				};
+			};
+			buildConfigurationList = CEEE731D213EC00400426B9B /* Build configuration list for PBXProject "SonicUserProfile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEEE7319213EC00400426B9B;
+			productRefGroup = CEEE7323213EC00400426B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEE7321213EC00400426B9B /* SonicUserProfile */,
+				CEEE7335213EC00600426B9B /* SonicUserProfileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEE7320213EC00400426B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEE7330213EC00600426B9B /* LaunchScreen.storyboard in Resources */,
+				CEEE732D213EC00600426B9B /* Assets.xcassets in Resources */,
+				CEEE735E213ED94F00426B9B /* CustomHeader.xib in Resources */,
+				CEEE732B213EC00400426B9B /* Main.storyboard in Resources */,
+				CEEE734E213ECC0500426B9B /* ExperienceTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEE7334213EC00600426B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEE731E213EC00400426B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEE7348213EC42100426B9B /* ItsRequest.swift in Sources */,
+				CEEE735C213ED94000426B9B /* CustomHeader.swift in Sources */,
+				CEEE7346213EC15000426B9B /* UserData.swift in Sources */,
+				CEEE7328213EC00400426B9B /* ViewController.swift in Sources */,
+				CEEE734A213EC4BE00426B9B /* HomeViewModel.swift in Sources */,
+				CEEE7326213EC00400426B9B /* AppDelegate.swift in Sources */,
+				CEEE734D213ECC0500426B9B /* ExperienceTableViewCell.swift in Sources */,
+				CEEE735A213ED0EC00426B9B /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEE7332213EC00600426B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEE733B213EC00600426B9B /* SonicUserProfileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEEE7338213EC00600426B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEE7321213EC00400426B9B /* SonicUserProfile */;
+			targetProxy = CEEE7337213EC00600426B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEEE7329213EC00400426B9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEE732A213EC00400426B9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEEE732E213EC00600426B9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEE732F213EC00600426B9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEE733D213EC00600426B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEEE733E213EC00600426B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEE7340213EC00600426B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTG2L73M39;
+				INFOPLIST_FILE = SonicUserProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankaj.ios.SonicUserProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEEE7341213EC00600426B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTG2L73M39;
+				INFOPLIST_FILE = SonicUserProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankaj.ios.SonicUserProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEEE7343213EC00600426B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTG2L73M39;
+				INFOPLIST_FILE = SonicUserProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankaj.ios.SonicUserProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonicUserProfile.app/SonicUserProfile";
+			};
+			name = Debug;
+		};
+		CEEE7344213EC00600426B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTG2L73M39;
+				INFOPLIST_FILE = SonicUserProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankaj.ios.SonicUserProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonicUserProfile.app/SonicUserProfile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEE731D213EC00400426B9B /* Build configuration list for PBXProject "SonicUserProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEE733D213EC00600426B9B /* Debug */,
+				CEEE733E213EC00600426B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEE733F213EC00600426B9B /* Build configuration list for PBXNativeTarget "SonicUserProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEE7340213EC00600426B9B /* Debug */,
+				CEEE7341213EC00600426B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEE7342213EC00600426B9B /* Build configuration list for PBXNativeTarget "SonicUserProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEE7343213EC00600426B9B /* Debug */,
+				CEEE7344213EC00600426B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEE731A213EC00400426B9B /* Project object */;
+}
